@@ -1,0 +1,87 @@
+html{
+	font-family: "Dosis";
+	color:#777777;
+	background-color: black;
+	font-weight:1.2rem;
+}
+
+body{
+	margin: 0;
+	padding :0;
+}
+
+.introframe{	
+	background-image:  url("pics/bgnd.png");
+	background-position: 0vw -10vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 10vh;
+}
+
+.call{
+	margin-top: 0vh;
+}
+
+.nameplate{
+	margin-top: 10vh;
+	margin-left: 10vw;
+}
+
+
+#name{
+	align-items: center;
+	cursor: url("pics/cursor.png"), auto;
+}
+
+strong{
+	font-weight: bold;
+	cursor: url("pics/cursor.png"), auto;
+}
+
+.input-field input:focus + label, .input-field i{
+	color: #666666 !important;
+}
+
+.row .input-field input:focus {
+	border-bottom: 1px solid #cccccc !important;
+	box-shadow: 0 1px 0 0 #cccccc !important
+}
+
+#start{ 
+	font-weight: bold;
+	font-size: 1rem;
+	color: #aaaaaa;
+}
+
+h1{
+	align-items: center;
+	font-family: 'Architects Daughter';
+	color: #999999;
+	font-size: 285%;
+}
+
+#send{
+	overflow: hidden;
+	background-color: black;
+	border:none;
+}
+
+.tabs .indicator {
+	background-color: #888888;
+}
+
+i, a{
+	color: rgb(119,119,119);
+}
+
+i:hover{
+	color: #cccccc;
+}
+
+#skills .card-title{
+	color: #cccccc;
+}
+
+.card-content{
+	font-size: 1.2rem;
+}
