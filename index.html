@@ -48,7 +48,7 @@
 
         <div class="row">
           <div class= "col l1 s1 offset-s5 offset-l2">
-            <a onclick="document.querySelector('#education').scrollIntoView({behavior: 'smooth'});"><i class="material-icons small" style="margin-left: 4vw; border-radius: 50%; border: solid #666666; cursor: pointer;">arrow_downward</i></a>
+            <a onclick="document.querySelector('.education').scrollIntoView({behavior: 'smooth'});"><i class="material-icons small" style="margin-left: 4vw; border-radius: 50%; border: solid #666666; cursor: pointer;">arrow_downward</i></a>
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@
   <div class="section education" >
     <div class="row">
       <div class="col l6 offset-l5 s12">
-        <center id="education"> <h1 style="margin-top:0vh;"> Education </h1>
+        <center > <h1 style="margin-top:0vh;"> Education </h1>
         </center>
         <hr style="color:#999999;opacity:0.2;"> 
       </div>
@@ -68,10 +68,10 @@
       <div class="col l6 push-l1 s12 "> <img class="responsive-img" src="pics/education.jpeg" style="margin-top:-10vh;;opacity: 0.4; max-height: 100vh;"> </div>
       <div class="col l6 s12 pull-l1">
         <div class="row">
-          <div class="card black darken-1 " style="opacity:0.7;">
+          <div class="card black darken-1 " >
             <div class="card-content" id="insti"> 
               <center><a target="_blank_" href="http://www.rvpucollege.edu.in/">
-                <img class="responsive-img" src="pics/rv-logo.png" width="200vw"></a>
+                <img style="opacity:0.4;" class="responsive-img" src="pics/rv-logo.png" width="200vw"></a>
               </center>
             </div>
 
@@ -85,9 +85,9 @@
 
             <script> function show(n){
               if( n==1)
-                document.getElementById('insti').innerHTML="<center><a target=\"_blank_\" href=\"http://www.carmelschool.edu.in/common/school-overview.shtml\"><img src=\"pics/carmel-logo.png\" width=\"200vw\"></a></center>";
+                document.getElementById('insti').innerHTML="<center><a target=\"_blank_\" href=\"http://www.carmelschool.edu.in/common/school-overview.shtml\"><img style=\"opacity:0.4;\" src=\"pics/carmel-logo.png\" width=\"200vw\"></a></center>";
               else if( n==2)
-                document.getElementById('insti').innerHTML="<center><a target=\"_blank_\" href=\"http://www.rvpucollege.edu.in/\"><img width=\"200vw\" src=\"pics/rv-logo.png\"></a></center>";
+                document.getElementById('insti').innerHTML="<center><a target=\"_blank_\" href=\"http://www.rvpucollege.edu.in/\"><img style=\"opacity:0.4;\" width=\"200vw\" src=\"pics/rv-logo.png\"></a></center>";
               else if(n==3)
                 document.getElementById('insti').innerHTML="<center><a target=\"_blank_\" href=\"http://www.iitkgp.ac.in\"><img width=\"200vw\" src=\"pics/iitkgp-logo.png\"></a></center>";
                }
@@ -95,12 +95,12 @@
 
             <div class="card-content black" style="font-size: 105%;color: #888888;">
               <div id="carmel"><p>
-              A place which set my foundations right in all aspects- academics, goal setting, leadership development, people skills; shaping my personality to face the world independently. Carmel will never cease to overcome me with acute nostalgia, making me yearn to fly back into the past just to relive those times. Oh, was my school life a spectacle! Thank you, Carmel for all the love!<br><hr style="opacity:0.4;"><b>Completed class X ICSE in 2014- 95.83%</b>
+              A place which set my foundations right in all aspects- academics, goal setting, leadership development, people skills; shaping my personality to face the world independently. Carmel will never cease to overcome me with acute nostalgia, making me yearn to fly back into the past just to relive those times. Oh, was my school life a spectacle! Thank you, Carmel for all the love!<br><hr style="color:#999999;opacity:0.4;"><b>Completed class X ICSE in 2014- 95.83%</b>
               </p>
               </div>
 
               <div id="RV"><p>
-              This is the place I'll credit for making me realize the truth that through hardwork anything can be achieved. The atmosphere at this place proved to be just right for fulfilling the purpose of this place. It was a weird mixture of learning and fun, something every batch grumbles at, but somewhere down the line made peace with given that it bore satisfying fruits.<br><hr style="opacity:0.4;">
+              This is the place I'll credit for making me realize the truth that through hardwork anything can be achieved. The atmosphere at this place proved to be just right for fulfilling the purpose of this place. It was a weird mixture of learning and fun, something every batch grumbles at, but somewhere down the line made peace with given that it bore satisfying fruits.<br><hr style="color:#999999;opacity:0.4;">
               <b>Completed II PUC (Karnataka State Board) in 2016- 95.83% <br>
               Qualified JEE Mains and JEE Advanced- 2016</b>
               </p>
@@ -108,7 +108,7 @@
 
               <div id="iitkgp">
               <p>
-                To summarise KGP in such short space and such short stay is detrimental given the many assumptions I'd have to make. In the one year that I've been here, I have tried my hand in many interests. I know KGP has a lot to offer and I intend to make full use of the magic in here. I've met a new family of people with whom I'll grow and learn to make a difference. So cheers to that!<br><hr style="opacity:0.4;">
+                To summarise KGP in such short space and such short stay is detrimental given the many assumptions I'd have to make. In the one year that I've been here, I have tried my hand in many interests. I know KGP has a lot to offer and I intend to make full use of the magic in here. I've met a new family of people with whom I'll grow and learn to make a difference. So cheers to that!<br><hr style="color:#999999;opacity:0.4;">
                 <b>Pursuing Btech in Aerospace Engineering (2016-2020)</b>
               </p>
               </div>
@@ -124,7 +124,7 @@
 <div class="section" id="skills">
   <div class="container">
     <center><h1> in pursuit of happiness </h1></center>
-    <hr style="color:#999999; opacity:0.2;"><br>
+    <hr style="color:#999999; opacity:0.4;"><br>
     <center style="font-size:1.2rem;"> I confess that I'm guilty of wanting to be happy all the time and with that intent I've enthusiastically tried my hand in whatever that came my way, with a hope that it may make me happy [for whatever length of time]. In this process I've acquainted myself with a good skill set [not to say that I haven't terribly flopped at some things- I really suck at chess] and a large number of interests. I must say, at this point, I almost know nothing in most of it, but I do know something and that makes me happy.</center>
   </div>
 
@@ -227,7 +227,8 @@
       {
         $("#talk,#write,#java,#html,#python,#arduino,#science,#drams,#films,#photoshop,#music,#editing").hide(); 
         $("#"+e).show();
-      }
+    document.querySelector('#'+e).scrollIntoView({behavior: 'smooth'});
+	  }
     </script>
 
 </div>
@@ -252,21 +253,21 @@
 
                   <p class="input-field">
                     <i class="material-icons prefix">account_circle</i>
-                    <input type="text" class="validate" name="name" required="" aria-required="true">
+                    <input type="text" class="validate" required="" aria-required="true" name="name">
                     <label for="fullname">Full Name</label>
                   </p>
 
 
                   <p class="input-field">
                     <i class="material-icons prefix">email</i>
-                    <input type="email" name="_replyto" class="validate" required="" aria-required="true">
+                    <input type="email" name="_replyto" required="" aria-required="true" class="validate">
                     <label for="email">Email ID</label>
                   </p>
 
 
                   <p class="input-field">
                     <i class="material-icons prefix">message</i>
-                    <input type="text" name="message" class="validate" required="" aria-required="true">
+                    <input type="text" name="message" required="" aria-required="true" class="validate">
                     <label for="message">Message</label>
                   </p> 
 
@@ -289,7 +290,7 @@
 </body>
 
 <footer >
-    <div class="row"><div class="col l7 offset-l3 s12"><hr style="color: #111111; opacity:0.5;"></div></div>
+    <div class="row"><div class="col l7 offset-l3 s12"><hr style="color: #999999; opacity:0.4;"></div></div>
     <div class="row">
         <div class="col l3 offset-l1 s12">
           </div class="row social">
