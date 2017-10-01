@@ -21,29 +21,29 @@
 
   <!---------------------------------------------------------------------------------------------------------- -->
 
-  <div class="introframe section ">
+  <div class="section" id="introframe">
     <div class="row">
-      <div class="col s1 offset-s11 call"> <i onclick="document.querySelector('#contact').scrollIntoView({behavior: 'smooth'});" class="call material-icons medium" style="cursor:pointer;">call</i>
+      <div class="col l1 offset-l11 s1 offset-s9 call"> <i onclick="document.querySelector('#contact').scrollIntoView({behavior: 'smooth'});" class="call material-icons medium" style="cursor:pointer;">call</i>
       </div>
     </div>  
 
     <div class="nameplate">
       <div class="row">
-        <div class="col s4"> 
+        <div class="col l4 s12 offset-l1"> 
           <img src="pics/symbol3.png" class="responsive-img" >
           <h1 id="name"> <center> suraj iyyengar </center></h1>
         </div>
       </div>
 
       <div class="row">
-        <div class="col s4">
+        <div class="col l4 s12 offset-l1">
           <hr style="color:#999999; opacity:0.2;"><br>
           <span id="start">I AM A STUDENT</span>&nbsp; of the world currently learning at <strong>Indian Institute of Technology, Kharagpur. </strong> I grew up in the company of my family, friends and peers at <strong>Namma Bengaluru</strong>, which is my home. I write occasionally and enjoy knowing a good character in any story. I believe that the people of the world have a lot of stories to tell. Enchant me with yours!<br><br>
         </div>
       </div>
 
       <div class="row">
-        <div class= "col s1 offset-s1">
+        <div class= "col l1 s1 offset-s5 offset-l2">
           <a onclick="document.querySelector('#education').scrollIntoView({behavior: 'smooth'});"><i class="material-icons small" style="margin-left: 4vw; border-radius: 50%; border: solid #666666; cursor: pointer;">arrow_downward</i></a>
         </div>
       </div>
@@ -51,27 +51,30 @@
   </div>
 <br><br><br><br><br><br>
   <!---------------------------------------------------------------------------------------------------------- -->
-  <div class="section" id="education">
+  <div class="section education" >
     <div class="row">
-      <div class="col s6"> <img class="responsive-img" src="pics/education.jpeg" style="margin-top: 5vh;opacity: 0.4; max-height: 100vh;"> </div>
-      <div class="col s6 pull-s1">
-        <center> <h1> Education </h1>
+      <div class="col l6 offset-l5 s12">
+        <center id="education"> <h1 style="margin-top:15vh;"> Education </h1>
         </center>
         <hr style="color:#999999;opacity:0.2;"> 
-
+      </div>
+    </div>
+    <div class="row">
+      <div class="col l6 s12"> <img class="responsive-img" src="pics/education.jpeg" style="margin-top:-10vh;;opacity: 0.4; max-height: 100vh;"> </div>
+      <div class="col l6 pull-l1 s12">
         <div class="row">
-          <div class="card black darken-1 push-s2" style="opacity:0.7;">
+          <div class="card black darken-1 push-l2 " style="opacity:0.7;">
             <div class="card-content" id="insti"> 
-              <center><a target="_blank_" href="http://www.carmelschool.edu.in/common/school-overview.shtml">
-                <img class="responsive-img" src="pics/carmel-logo.png" width="200vw"></a>
+              <center><a target="_blank_" href="http://www.rvpucollege.edu.in/">
+                <img class="responsive-img" src="pics/rv-logo.png" width="200vw"></a>
               </center>
             </div>
 
-            <div class="card-tabs">
-              <ul class="tabs tabs-fixed-width">
-                <li class="tab black"><a class="active" style="font-size:130%;color: #cccccc;" onclick ="show(1)" href="#carmel">Carmel School</a></li>
-                <li class="tab black"><a style="font-size:130%;color: #cccccc;" onclick="show(2)" href="#RV">RV PU College</a></li>
-                <li class="tab black"><a style="font-size:130%;color: #cccccc;" onclick="show(3)" href="#iitkgp">IIT Kharagpur</a></li>
+            <div class="card-tabs ">
+              <ul class="tabs tabs-fixed-width" style="max-width:80%;">
+                <li class="tab black"><a style="font-size:125%;color: #cccccc;" onclick ="show(1)" href="#carmel">Carmel School</a></li>
+                <li class="tab black"><a class="active" style="font-size:125%;color: #cccccc;" onclick="show(2)" href="#RV">RV PU College</a></li>
+                <li class="tab black"><a style="font-size:125%;color: #cccccc;" onclick="show(3)" href="#iitkgp">IIT Kharagpur</a></li>
               </ul>
             </div>
 
@@ -81,13 +84,13 @@
               else if( n==2)
                 document.getElementById('insti').innerHTML="<center><a target=\"_blank_\" href=\"http://www.rvpucollege.edu.in/\"><img width=\"200vw\" src=\"pics/rv-logo.png\"></a></center>";
               else if(n==3)
-                document.getElementById('insti').innerHTML="<center><a target=\"_blank_\" href=\"http://www.iitkgp.ac.in\"><img   width=\"200vw\" src=\"pics/iitkgp-logo.png\"></a></center>";
+                document.getElementById('insti').innerHTML="<center><a target=\"_blank_\" href=\"http://www.iitkgp.ac.in\"><img width=\"200vw\" src=\"pics/iitkgp-logo.png\"></a></center>";
                }
             </script>
 
             <div class="card-content black" style="font-size: 105%;color: #888888;">
               <div id="carmel"><p>
-              A place which set my foundations right in all aspects- academics, goal setting, leadership development, people skills; shaping my personality to face the world independently. Carmel will never cease to overcome me with acute nostalgia, making me yearn to fly back into the past just to relive those times. Oh, was my school life a spectacle! I'm forever grateful to the Carmel team for their contributions.<br><hr style="opacity:0.4;"><b>Completed class X ICSE in 2014- 95.83%</b>
+              A place which set my foundations right in all aspects- academics, goal setting, leadership development, people skills; shaping my personality to face the world independently. Carmel will never cease to overcome me with acute nostalgia, making me yearn to fly back into the past just to relive those times. Oh, was my school life a spectacle! Thank you, Carmel for all the love!<br><hr style="opacity:0.4;"><b>Completed class X ICSE in 2014- 95.83%</b>
               </p>
               </div>
 
@@ -117,31 +120,31 @@
   <div class="container">
     <center><h1> in pursuit of happiness </h1></center>
     <hr style="color:#999999; opacity:0.2;"><br>
-    <center style="font-size:1.2vw;"> I confess that I'm guilty of wanting to be happy all the time and with that intent I've enthusiastically tried my hand in whatever that came my way, with a hope that it may make me happy [for whatever length of time]. In this process I've acquainted myself with a good skill set [not to say that I haven't terribly flopped at some things- I really suck at chess] and a large number of interests. I must say, at this point, I almost know nothing in most of it, but I do know something and that makes me happy.</center>
+    <center style="font-size:1.2rem;"> I confess that I'm guilty of wanting to be happy all the time and with that intent I've enthusiastically tried my hand in whatever that came my way, with a hope that it may make me happy [for whatever length of time]. In this process I've acquainted myself with a good skill set [not to say that I haven't terribly flopped at some things- I really suck at chess] and a large number of interests. I must say, at this point, I almost know nothing in most of it, but I do know something and that makes me happy.</center>
   </div>
 
   <div class="row" style="margin:5vh;">
 
-    <div class="col s6 push-s2" style="margin-top:5vh;">
+    <div class="col l6 push-l2 s12" style="margin-top:5vh;">
       <div class="row">
-        <div class="col s2 pull-s1" onmouseover="showskill('talk')"><i class="material-icons medium">mic</i></div>
-        <div class="col s2 pull-s1" onmouseover="showskill('write')""><i class="material-icons medium">edit</i></div>
-        <div class="col s2 pull-s1" onmouseover="showskill('java')"><i><img src="pics/java.png"></i></div>
-        <div class="col s2 pull-s1" onmouseover="showskill('html')"><i  class="material-icons medium">code</i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('talk')"><i class="material-icons medium">mic</i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('write')""><i class="material-icons medium">edit</i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('java')"><i><img src="pics/java.png"></i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('html')"><i  class="material-icons medium">code</i></div>
       </div><br>
 
       <div class="row">
-        <div class="col s2 pull-s1" onmouseover="showskill('arduino')"><i ><img src= "pics/arduino.png"></i></div>
-        <div class="col s2 pull-s1" onmouseover="showskill('python')"><i ><img src= "pics/python.png"></i></div>
-        <div class="col s2 pull-s1" onmouseover="showskill('science')"><i class="material-icons medium">school</i></div>
-        <div class="col s2 pull-s1" onmouseover="showskill('drams')"><i ><img src= "pics/encore.png"></i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('arduino')"><i ><img src= "pics/arduino.png"></i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('python')"><i ><img src= "pics/python.png"></i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('science')"><i class="material-icons medium">school</i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('drams')"><i ><img src= "pics/encore.png"></i></div>
       </div><br>
 
       <div class="row">
-        <div class="col s2 pull-s1" onmouseover="showskill('films')"><i ><img src= "pics/tfps.png"></i></div>
-        <div class="col s2 pull-s1" onmouseover="showskill('photoshop')"><i class="material-icons medium">photo</i></div>
-        <div class="col s2 pull-s1" onmouseover="showskill('music')"><i class="material-icons medium">headset</i></div>
-        <div class="col s2 pull-s1" onmouseover="showskill('editing')"><i class="material-icons medium">content_cut</i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('films')"><i ><img src= "pics/tfps.png"></i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('photoshop')"><i class="material-icons medium">photo</i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('music')"><i class="material-icons medium">headset</i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('editing')"><i class="material-icons medium">content_cut</i></div>
       </div><br>
     </div>
 
@@ -154,7 +157,7 @@
     </script>
 
     <div class="row">
-      <div class="col s4">
+      <div class="col l4 s12">
         <div class="card black">
           <div class="card-content">
 
@@ -230,17 +233,20 @@
   <!----------------------------------------------------------------------------------------------------------- -->
 <div class="section" id="contact">  
   <div class="row">
-      <div class="col s6"> <img class="responsive-img" src="pics/timeup.jpeg" style="opacity: 0.4; max-height:100vh;" ></div>
-      <div class="col s6 pull-s1 ">
-        <center style="margin-top:5vh;"> <h1> contact me </h1> </center>
+      <div class="col l6 offset-l5 s12">
+        <center > <h1> contact me </h1> </center>
         <hr style="color:#999999; opacity:0.2;"><br>
-
-        <center style="font-size:1.4vw;">We have all the time in the world! A simple hello could lead to a<strong> million beautiful things.
+      </div>
+  </div>
+  <div class="row">
+      <div class="col l6 s12"> <img class="responsive-img" src="pics/timeup.jpeg" style="opacity: 0.4; max-height:100vh; margin-top:-12vh;" ></div>
+      <div class="col l6 pull-l1 s12">
+        <center style="font-size:1.2rem;">We have all the time in the world! A simple hello could lead to a<strong> million beautiful things.
         </strong><br> So, Hello? <br> <br> 
         </center> 
 
         <div class="row">
-          <form method="POST" class="col s6 push-s2" action="https://formspree.io/surajiyyengar@gmail.com">
+          <form method="POST" class="col l6 push-l2 s12" action="https://formspree.io/surajiyyengar@gmail.com">
 
                   <p class="input-field">
                     <i class="material-icons prefix">account_circle</i>
@@ -279,15 +285,15 @@
 </body>
 
 <footer >
-    <div class="row"><div class="col s7 offset-s3"><hr style="color: #111111; opacity:0.5;"></div></div>
+    <div class="row"><div class="col l7 offset-l3 s12"><hr style="color: #111111; opacity:0.5;"></div></div>
     <div class="row">
-        <div class="col s3 offset-s1">
+        <div class="col l3 offset-l1 s12">
           </div class="row social">
-              <div class="col s1"><a target="_blank_" href="https://www.facebook.com/suraj.michaeljackson"><img src="pics/fb.png"></a></div>
-              <div class="col s1"><a target="_blank_" href="https://www.linkedin.com/in/surajiyyengar"><img src="pics/linkedin.png"></a></div>
-              <div class="col s1"><a target="_blank_" href="https://www.instagram.com/lazyiyyengar"><img src="pics/insta.png"></a></div>
-              <div class="col s1"><a target="_blank_" href="https://www.github.com/surajiyyengar"><img src="pics/github.png"></a></div>
-              <div class="col s1"><a target="_blank_" href="https://www.ordinarymurderers.wordpress.com"><img src="pics/wordpress.png"></a></div>
+              <div class="col l1 s1 offset-s3"><a target="_blank_" href="https://www.facebook.com/suraj.michaeljackson"><img src="pics/fb.png"></a></div>
+              <div class="col l1 s1"><a target="_blank_" href="https://www.linkedin.com/in/surajiyyengar/"><img src="pics/linkedin.png"></a></div>
+              <div class="col l1 s1"><a target="_blank_" href="https://www.instagram.com/lazyiyyengar"><img src="pics/insta.png"></a></div>
+              <div style="margin-top:-1vh;" class="col l1 s1"><a target="_blank_" href="https://github.com/surajiyyengar"><img src="pics/github.png"></a></div>
+              <div style="margin-top:-1vh;" class="col l1 s1"><a target="_blank_" href="https://ordinarymurderers.wordpress.com"><img src="pics/wordpress.png"></a></div>
         </div>
 </footer>
 
