@@ -11,23 +11,9 @@ body{
 	overflow-x:hidden;
 }
 
-#introframe{	
-	background-image:  url("pics/bgnd.png");
-	background-position: 0vw -10vh;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-bottom: 10vh;
-}
-
 .call{
 	margin-top: 0vh;
 }
-
-.nameplate{
-	margin-top: 10vh;
-/*	margin-left: 10vw;
-*/}
-
 
 #name{
 	align-items: center;
@@ -50,7 +36,7 @@ strong{
 
 #start{ 
 	font-weight: bold;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	color: #aaaaaa;
 }
 
