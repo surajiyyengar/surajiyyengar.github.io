@@ -8,9 +8,10 @@ html{
 body{
 	margin: 0;
 	padding :0;
+	overflow-x:hidden;
 }
 
-.introframe{	
+#introframe{	
 	background-image:  url("pics/bgnd.png");
 	background-position: 0vw -10vh;
 	background-repeat: no-repeat;
@@ -24,8 +25,8 @@ body{
 
 .nameplate{
 	margin-top: 10vh;
-	margin-left: 10vw;
-}
+/*	margin-left: 10vw;
+*/}
 
 
 #name{
