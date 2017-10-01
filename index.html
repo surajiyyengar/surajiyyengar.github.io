@@ -15,6 +15,7 @@
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="referrer" content="origin">
+
 </head>
 
 <body>
@@ -23,28 +24,32 @@
 
   <div class="section" id="introframe">
     <div class="row">
-      <div class="col l1 offset-l11 s1 offset-s9 call"> <i onclick="document.querySelector('#contact').scrollIntoView({behavior: 'smooth'});" class="call material-icons medium" style="cursor:pointer;">call</i>
+      <div class="col l1 offset-l11 s1 offset-s10 call"> <i onclick="document.querySelector('#contact').scrollIntoView({behavior: 'smooth'});" class="call material-icons medium" style="cursor:pointer;">call</i>
       </div>
     </div>  
 
-    <div class="nameplate">
-      <div class="row">
-        <div class="col l4 s12 offset-l1"> 
-          <img src="pics/symbol3.png" class="responsive-img" >
-          <h1 id="name"> <center> suraj iyyengar </center></h1>
+    <div class="row">
+      <div class="col l6 s12 push-l6 offset-s1"><img class="responsive-img" style="max-height:100vh;" src="pics/man.png"></div>
+    
+      <div class="col l6 s12 pull-l5" style="margin-top:5vh;">
+        <div class="row">
+          <div class="col l8 s12 "> 
+            <img src="pics/symbol3.png" class="responsive-img" >
+            <h1 id="name"> <center> suraj iyyengar </center></h1>
+          </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col l4 s12 offset-l1">
-          <hr style="color:#999999; opacity:0.2;"><br>
-          <span id="start">I AM A STUDENT</span>&nbsp; of the world currently learning at <strong>Indian Institute of Technology, Kharagpur. </strong> I grew up in the company of my family, friends and peers at <strong>Namma Bengaluru</strong>, which is my home. I write occasionally and enjoy knowing a good character in any story. I believe that the people of the world have a lot of stories to tell. Enchant me with yours!<br><br>
+        <div class="row">
+          <div class="col l8 s12">
+            <hr style="color:#999999; opacity:0.2;"><br>
+            <span id="start">I AM A STUDENT</span>&nbsp; of the world currently learning at <strong>Indian Institute of Technology, Kharagpur. </strong> I grew up in the company of my family, friends and peers at <strong>Namma Bengaluru</strong>, which is my home. I write occasionally and enjoy knowing a good character in any story. I believe that the people of the world have a lot of stories to tell. Enchant me with yours!<br><br>
+          </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class= "col l1 s1 offset-s5 offset-l2">
-          <a onclick="document.querySelector('#education').scrollIntoView({behavior: 'smooth'});"><i class="material-icons small" style="margin-left: 4vw; border-radius: 50%; border: solid #666666; cursor: pointer;">arrow_downward</i></a>
+        <div class="row">
+          <div class= "col l1 s1 offset-s5 offset-l2">
+            <a onclick="document.querySelector('#education').scrollIntoView({behavior: 'smooth'});"><i class="material-icons small" style="margin-left: 4vw; border-radius: 50%; border: solid #666666; cursor: pointer;">arrow_downward</i></a>
+          </div>
         </div>
       </div>
     </div>
@@ -125,43 +130,11 @@
 
   <div class="row" style="margin:5vh;">
 
-    <div class="col l6 push-l2 s12" style="margin-top:5vh;">
-      <div class="row">
-        <div class="col l2 pull-l1 s3" onmouseover="showskill('talk')"><i class="material-icons medium">mic</i></div>
-        <div class="col l2 pull-l1 s3" onmouseover="showskill('write')""><i class="material-icons medium">edit</i></div>
-        <div class="col l2 pull-l1 s3" onmouseover="showskill('java')"><i><img src="pics/java.png"></i></div>
-        <div class="col l2 pull-l1 s3" onmouseover="showskill('html')"><i  class="material-icons medium">code</i></div>
-      </div><br>
-
-      <div class="row">
-        <div class="col l2 pull-l1 s3" onmouseover="showskill('arduino')"><i ><img src= "pics/arduino.png"></i></div>
-        <div class="col l2 pull-l1 s3" onmouseover="showskill('python')"><i ><img src= "pics/python.png"></i></div>
-        <div class="col l2 pull-l1 s3" onmouseover="showskill('science')"><i class="material-icons medium">school</i></div>
-        <div class="col l2 pull-l1 s3" onmouseover="showskill('drams')"><i ><img src= "pics/encore.png"></i></div>
-      </div><br>
-
-      <div class="row">
-        <div class="col l2 pull-l1 s3" onmouseover="showskill('films')"><i ><img src= "pics/tfps.png"></i></div>
-        <div class="col l2 pull-l1 s3" onmouseover="showskill('photoshop')"><i class="material-icons medium">photo</i></div>
-        <div class="col l2 pull-l1 s3" onmouseover="showskill('music')"><i class="material-icons medium">headset</i></div>
-        <div class="col l2 pull-l1 s3" onmouseover="showskill('editing')"><i class="material-icons medium">content_cut</i></div>
-      </div><br>
-    </div>
-
-    <script>
-      function showskill(e)
-      {
-        $("#talk,#write,#java,#html,#python,#arduino,#science,#drams,#films,#photoshop,#music,#editing").hide(); 
-        $("#"+e).show();
-      }
-    </script>
-
-    <div class="row">
-      <div class="col l4 s12">
+    <div class="col l4 push-l2 s12">
         <div class="card black">
           <div class="card-content">
 
-            <div id="talk" style="display: block;">
+            <div id="talk" style="display: inline-block;">
               <span class="card-title" >Public Speaking</span>
               <p>My love for public speaking was born from my interest to present ideas. I fought really to be able to discuss as freely as I can today and a lot of my ease is because of my friends back home. </p>
             </div>
@@ -221,13 +194,42 @@
               <p>TFPS has helped me recognise Editing as an art in itself. Equipped with a basic knowledge of premiere pro, I hope to make something in the near future.</p>
             </div>
 
-
           </div>
         </div>
-      </div>
     </div>
-                
+
+    <div class="col l6 push-l3 s12" style="margin-top:5vh;">
+      <div class="row">
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('talk')"><i class="material-icons medium">mic</i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('write')""><i class="material-icons medium">edit</i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('java')"><i><img src="pics/java.png"></i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('html')"><i  class="material-icons medium">code</i></div>
+      </div><br>
+
+      <div class="row">
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('arduino')"><i ><img src= "pics/arduino.png"></i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('python')"><i ><img src= "pics/python.png"></i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('science')"><i class="material-icons medium">school</i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('drams')"><i ><img src= "pics/encore.png"></i></div>
+      </div><br>
+
+      <div class="row">
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('films')"><i ><img src= "pics/tfps.png"></i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('photoshop')"><i class="material-icons medium">photo</i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('music')"><i class="material-icons medium">headset</i></div>
+        <div class="col l2 pull-l1 s3" onmouseover="showskill('editing')"><i class="material-icons medium">content_cut</i></div>
+      </div><br>
+    </div>
   </div>
+
+    <script>
+      function showskill(e)
+      {
+        $("#talk,#write,#java,#html,#python,#arduino,#science,#drams,#films,#photoshop,#music,#editing").hide(); 
+        $("#"+e).show();
+      }
+    </script>
+
 </div>
 <br><br><br><br><br><br>
   <!----------------------------------------------------------------------------------------------------------- -->
@@ -272,7 +274,7 @@
                   <input type="hidden" name="_format" value="plain">
                   <input type="hidden" name="_next" value="https://surajiyyengar.github.io">
                   <input type="text" name="_gotcha" style="display:none;">
-                                                                         
+
                   <center><button id="send" type="submit">
                     <i class="material-icons small">check_circle</i></button></center>
             </form>   
